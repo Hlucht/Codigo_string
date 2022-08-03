@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1659559006 source:c:\users\heloisa luchtemberg\documents\connect\algoritmo\aula12\acha_palavra_prof\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
