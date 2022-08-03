@@ -16,7 +16,7 @@ int main() {
    tamTexto = strlen(texto);
    tamPalavra = strlen(palavra);
 
-   for(indTexto=0; indTexto<(tamTexto-tamPalavra); indTexto++) {
+   for(indTexto=0; indTexto<=(tamTexto-tamPalavra); indTexto++) {
     indPalavra = 0;
     while(texto[indTexto+indPalavra] == palavra[indPalavra] && indPalavra+indTexto < tamTexto) {
         indPalavra++;
